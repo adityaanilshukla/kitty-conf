@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Path to Kitty configuration file
 CONFIG_FILE="$HOME/.config/kitty/kitty.conf"
 
