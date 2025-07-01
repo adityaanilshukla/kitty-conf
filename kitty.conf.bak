@@ -49,16 +49,9 @@ map ctrl+shift+c send_text all \x03
 map ctrl+v paste_from_clipboard
 
 # map control backspace to delete word
-
-# works on tmux kitty
-# map ctrl+backspace send_text all \x17ki
-# for tmux kitty
 map ctrl+backspace send_text all \x17
 
-#making kitty compatible with tmux
-disable_ligatures always no
-
 # BEGIN_KITTY_THEME
-# Atom
+# Adapta Nokto Maia
 include current-theme.conf
 # END_KITTY_THEME
